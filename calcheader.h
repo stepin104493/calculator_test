@@ -15,7 +15,11 @@ float mult(float a, float b)
 }
 float division(float a, float b)
 {
-	return (a/b);
+	if (b!=0)
+	{
+		return(a/b)
+	}
+		
 }
 float squareroot(float a)
 {
